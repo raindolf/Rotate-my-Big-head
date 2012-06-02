@@ -1,0 +1,16 @@
+It is a CSS3 code I wrote to rotate an image 360 degrees on a web page.  If you are beginner in web development,
+you can replace my image with yours.Check out a snippet of CSS3 code i introduced ;
+
+.rotate:hover
+
+{
+
+    -webkit-transform:rotate(360deg);
+
+    -moz-transform:rotate(360deg);
+
+    -o-transform:rotate(360deg);
+
+}
+
+Kindly contribute,watch or fork my project.
