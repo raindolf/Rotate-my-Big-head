@@ -1,0 +1,50 @@
+echo "
+________________
+|		|
+      |  |
+      |  |
+      |  |
+Raindolf Presents "
+while true; do
+echo "SELECT A NUMBER 
+(1 FOR LOVE         (2 FOR DRUGS
+
+(3 FOR SPORTS       (4 FOR HEALTH
+
+(5 EDUCATION        (0 QUIT";
+read option
+case "$option" in 1) echo ""; cat Love;echo "";echo ""; echo "Do You wish to Continue Y or N";
+read Y_or_N 
+case "$Y_or_N" in "Y"|"y")  echo ""; echo "Supurb";; 
+"N"|"n")  echo ""; echo "Program has been Ended"; break;; 
+ *)  echo ""; echo "Don't be stupid choose an option";;
+esac
+;;
+ 2)  echo ""; cat Drugs; echo "";echo ""; echo "Do You wish to Continue Y or N";
+read Y_or_N 
+case "$Y_or_N" in "Y"|"y")  echo ""; echo "Supurb";; 
+"N"|"n")  echo ""; echo "Program has been Ended"; break;; 
+ *)  echo ""; echo "Don't be stupid choose an option";;
+esac;;
+ 3)  echo ""; cat Sports;echo "";echo ""; echo "Do You wish to Continue Y or N";
+read Y_or_N 
+case "$Y_or_N" in "Y"|"y")  echo ""; echo "Supurb";; 
+"N"|"n")  echo ""; echo "Program has been Ended"; break;; 
+ *)  echo ""; echo "Don't be stupid choose an option";;
+esac;;
+ 4)  echo ""; cat Health;echo "";echo ""; echo "Do You wish to Continue Y or N";
+read Y_or_N 
+case "$Y_or_N" in "Y"|"y")  echo ""; echo "Supurb";; 
+"N"|"n")  echo ""; echo "Program has been Ended"; break;; 
+ *)  echo ""; echo "Don't be stupid choose an option";;
+esac;;
+ 5)  echo ""; cat Education;echo "";echo ""; echo "Do You wish to Continue Y or N";
+read Y_or_N 
+case "$Y_or_N" in "Y"|"y")  echo ""; echo "Supurb";; 
+"N"|"n")  echo ""; echo "Program has been Ended"; break;; 
+ *)  echo ""; echo "Don't be stupid choose an option";;
+esac;;
+ 0) echo ""; echo "Program has been Ended"; break;;
+ *)  echo ""; echo "Don't be stupid choose an option";;
+esac
+done
